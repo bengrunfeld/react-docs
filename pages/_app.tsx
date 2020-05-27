@@ -18,7 +18,7 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>Ben Grunfeld</title>
+          <title>Abdridged React Docs</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link
             href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap"

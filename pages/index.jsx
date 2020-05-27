@@ -8,7 +8,9 @@ const Home = () => {
         <title>Ben Grunfeld</title>
       </Head>
 
-      <HomePage />
+      <PageLayout>
+        <HomePage />
+      </PageLayout>
     </div>
   );
 };

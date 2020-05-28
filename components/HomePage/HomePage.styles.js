@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-export const HomePageContainer = styled.div``;
-
 export const Title = styled.h1`
   font-family: "Josefin Sans", sans-serif;
 `;

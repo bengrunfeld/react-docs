@@ -14,4 +14,6 @@ export const NavLinkTitle = styled.a`
   font-family: ${({ theme }) => theme.fonts.josefin};
   font-size: 2rem;
   cursor: pointer;
+  display: inline-block;
+  width: 13.5rem;
 `;

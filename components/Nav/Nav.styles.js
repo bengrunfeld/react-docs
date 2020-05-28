@@ -22,10 +22,10 @@ export const NavTitle = styled.h2`
 
 export const NavLinks = styled.div`
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 20rem;
-  padding-left: 15rem;
+  justify-content: space-between;
+  width: 15rem;
+  padding: 0 4rem 0 15rem;
 `;
 
 export const NavItem = styled.a`

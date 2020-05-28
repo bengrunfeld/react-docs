@@ -13,7 +13,7 @@ const Nav = () => {
     <NavContainer>
       <NavGroup>
         <NavLink title={true} href="/">
-          SHORT REACT DOCS
+          REACT DOCS
         </NavLink>
         <NavLinks>
           <NavLink href="/">Home</NavLink>

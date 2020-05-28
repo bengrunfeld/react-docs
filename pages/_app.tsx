@@ -3,6 +3,7 @@ import App from "next/app";
 import Head from "next/head";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import { theme } from "../theme";
+import "prismjs/themes/prism-okaidia.css";
 
 // Re font-size of 62.5% - https://engageinteractive.co.uk/blog/em-vs-rem-vs-px
 const GlobalStyle = createGlobalStyle`

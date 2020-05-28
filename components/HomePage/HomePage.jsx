@@ -22,8 +22,8 @@ const HomePage = () => {
       <Title>SHORTENED REACT DOCS</Title>
       <SubTitle>An abdridged version</SubTitle>
       <Text>Some text goes here...</Text>
-      <pre className="language-javascript line-numbers">
-        <code>{code}</code>
+      <pre className="line-numbers">
+        <code className="lang-javascript">{code}</code>
       </pre>
     </MainContent>
   );

@@ -7,6 +7,9 @@ const HomePage = () => {
       <Title>SHORTENED REACT DOCS</Title>
       <SubTitle>An abdridged version</SubTitle>
       <Text>Some text goes here...</Text>
+      <pre>
+        <code>Some code goes here...</code>
+      </pre>
     </MainContent>
   );
 };

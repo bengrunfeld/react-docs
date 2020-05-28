@@ -1,20 +1,12 @@
-import { SideBarContainer, SideBarLink } from "./SideBar.styles";
-import Link from "next/link";
+import { SideBarContainer } from "./SideBar.styles";
+import { SideBarLink } from "./components";
 
 const SideBar = () => {
   return (
     <SideBarContainer>
-      <Link href="/introduction">
-        <SideBarLink>Introduction</SideBarLink>
-      </Link>
-
-      <Link href="/getting-started">
-        <SideBarLink>Getting Started</SideBarLink>
-      </Link>
-
-      <Link href="/components">
-        <SideBarLink>Components</SideBarLink>
-      </Link>
+      <SideBarLink href="/">Introduction</SideBarLink>
+      <SideBarLink href="/getting-started">Getting Started</SideBarLink>
+      <SideBarLink href="/installation">Installation</SideBarLink>
     </SideBarContainer>
   );
 };

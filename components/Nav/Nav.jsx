@@ -17,7 +17,7 @@ const Nav = () => {
         </NavLink>
         <NavLinks>
           <NavLink href="/">Home</NavLink>
-          <NavLink href="/author">Author</NavLink>
+          <NavLink href="/">Author</NavLink>
         </NavLinks>
       </NavGroup>
       <NavItem href="https://github.com/bengrunfeld/reactdocs">GitHub</NavItem>

@@ -5,8 +5,8 @@ const SideBar = () => {
   return (
     <SideBarContainer>
       <SideBarLink href="/">Introduction</SideBarLink>
-      <SideBarLink href="/getting-started">Getting Started</SideBarLink>
-      <SideBarLink href="/installation">Installation</SideBarLink>
+      <SideBarLink href="/">Getting Started</SideBarLink>
+      <SideBarLink href="/">Installation</SideBarLink>
     </SideBarContainer>
   );
 };

@@ -15,8 +15,6 @@ const HomePage = () => {
     </MainContent>
   );`;
 
-  // const html = Prism.highlight(code, Prism.languages.javascript, "javascript");
-
   return (
     <MainContent>
       <Title>SHORTENED REACT DOCS</Title>
@@ -28,7 +26,5 @@ const HomePage = () => {
     </MainContent>
   );
 };
-
-// <div dangerouslySetInnerHTML={{ __html: html }} />;
 
 export default HomePage;

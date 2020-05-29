@@ -1,20 +1,15 @@
 import Prism from "prismjs";
 import { useEffect } from "react";
 
-import { Title, SubTitle, Text } from "./HomePage.styles";
-import { MainContent, CodeSnippet } from "../";
+import { MainContent, CodeSnippet, Title, SubTitle, Text } from "../";
 
 const HomePage = () => {
-  const code = `return (
-    <MainContent>
-      <Title>SHORTENED REACT DOCS</Title>
-      <SubTitle>An abdridged version</SubTitle>
-      <Text>Some text goes here...</Text>
-      <div>
-      </div>
-    </MainContent>
-  );`;
+  const code = `const a = msg => console.log(msg);
 
+  function prism() {
+    console.log('hello')
+  }
+  `;
   return (
     <MainContent>
       <Title>SHORTENED REACT DOCS</Title>

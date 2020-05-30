@@ -1,8 +1,7 @@
 export { CodeSnippet } from "./CodeSnippet";
-export { HomePage } from "./HomePage";
-export { MainContent } from "./MainContent";
 export { MobileMenu } from "./MobileMenu";
 export { Nav } from "./Nav";
+export { Page } from "./Page";
 export { PageLayout } from "./PageLayout";
 export { SideBar } from "./SideBar";
 export { SubTitle } from "./SubTitle";

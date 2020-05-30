@@ -15,7 +15,6 @@ const HomePage = () => {
       <Title>SHORTENED REACT DOCS</Title>
       <SubTitle>An abdridged version</SubTitle>
       <Text>Some text goes here...</Text>
-      <CodeSnippet>{code}</CodeSnippet>
     </MainContent>
   );
 };

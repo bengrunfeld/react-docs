@@ -21,11 +21,15 @@ export const NavTitle = styled.h2`
 `;
 
 export const NavLinks = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 15rem;
-  padding: 0 4rem 0 15rem;
+  display: none;
+
+  @media screen and (min-width: ${({ theme }) => theme.size.desktop}) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25rem;
+    padding: 0 4rem 0 15rem;
+  }
 `;
 
 export const NavItem = styled.a`

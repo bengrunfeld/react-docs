@@ -1,3 +1,7 @@
-const Anchor = ({ href, children }) => <a href={href}>{children}</a>;
+import { AnchorTag } from "./Anchor.styles";
+
+const Anchor = ({ href, children }) => (
+  <AnchorTag href={href}>{children}</AnchorTag>
+);
 
 export default Anchor;

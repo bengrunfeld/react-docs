@@ -4,9 +4,10 @@ import { SideBarLink } from "./components";
 const SideBar = () => {
   return (
     <SideBarContainer>
-      <SideBarLink href="/">Introduction</SideBarLink>
-      <SideBarLink href="/">Getting Started</SideBarLink>
-      <SideBarLink href="/">Installation</SideBarLink>
+      <SideBarLink href="/">Home</SideBarLink>
+      <SideBarLink href="/jsx">JSX</SideBarLink>
+      <SideBarLink href="/elements">Elements</SideBarLink>
+      <SideBarLink href="/components">Components</SideBarLink>
     </SideBarContainer>
   );
 };

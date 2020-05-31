@@ -1,3 +1,4 @@
+export { Anchor } from "./Anchor";
 export { CodeSnippet } from "./CodeSnippet";
 export { MobileMenu } from "./MobileMenu";
 export { Nav } from "./Nav";
